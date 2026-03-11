@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3e6d8ff;
+
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.main-box {
+    width: 900px;
+    background-color: white;
+    height: 2190px;
+    margin-top: 120px;
+    border-radius: 20px;
+    margin-bottom: 120px;
+}
+
+img {
+    width: 820px;
+    margin: 40px 40px 0 40px;
+    border-radius: 20px;
+}
+
+.main-paragraph {
+    font-size: 50px;
+    padding: 30px 0 0 40px;
+    color: rgb(65, 56, 54);
+}
+
+#text1 {
+    font-size: 20px;
+    padding: 25px 0 0 40px;
+    color: #5f574eff;
+}
+
+.time {
+    background-color: rgb(248, 239, 241);
+    width: 820px;
+    height: 225px;
+    margin: 40px 40px 0 40px;
+    padding-top: 30px;
+    border-radius: 15px;
+}
+
+
+/* first par */
+
+.par2 {
+    color: #7b284fff;
+    font-size: 25px;
+    margin-left: 30px;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.list {
+    margin-left: 65px;
+    font-size: 19px;
+}
+
+.list li {
+    margin-top: 18px;
+}
+
+.list p {
+    margin-left: 30px;
+    color: #5f574eff;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.list span {
+    color: rgb(82, 51, 39);
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* second par */
+
+.par3 {
+    font-size: 40px;
+    padding: 30px 0 0 40px;
+    color: rgb(156, 83, 60);
+}
+
+.list2 {
+    margin-top: 25px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.list2 li {
+    margin-top: 15px;
+}
+
+.list2 p {
+    margin-left: 20px;
+    color: #5f574eff;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    color: rgb(156, 83, 60);
+}
+
+.main-hr {
+    width: 810px;
+    margin: 30px 45px 20px 45px;
+    color: #5f574eff;
+    opacity: 35%;
+}
+
+
+/* third par */
+
+.par4 {
+    font-size: 40px;
+    padding: 0 0 0 40px;
+    color: rgb(156, 83, 60);
+}
+
+.list3 {
+    margin-top: 25px;
+    margin-left: 70px;
+    font-size: 19px;
+    line-height: 1.5;
+    width: 780px;
+}
+
+.list3 li {
+    margin-top: 15px;
+}
+
+.list3 span {
+    color: rgb(68, 37, 26);
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.list3 p {
+    margin-left: 20px;
+    color: #5f574eff;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ol {
+    color: rgb(156, 83, 60);
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* last par */
+
+
+.par5 {
+    font-size: 40px;
+    padding: 0 0 0 40px;
+    color: rgb(156, 83, 60);
+}
+
+#text2 {
+    font-size: 20px;
+    padding: 25px 0 15px 40px;
+    color: #5f574eff;
+}
+
+.row{
+    font-size: 21px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    margin: 20px 0 0 80px;
+    color: #5f574eff;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.value{
+    color: rgb(156, 83, 60);
+    margin-left: 300px;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sec-hr {
+    width: 810px;
+    margin: 15px 45px;
+    color: #5f574eff;
+    opacity: 35%;
+}
+
+
+
+@media (max-width: 375px) {
+    body {
+        display: block;
+    }
+
+    .main-box {
+        width: 375px;
+        height: 2007px;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    img {
+        width: 375px;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .time {
+        width: 305px;
+        margin: 0;
+        margin: 20px 35px;
+        height: 193px;
+    }
+
+    .main-paragraph {
+        font-size: 35px;
+        line-height: 0.9;
+        margin-left: -2px;
+    }
+
+    #text1 {
+        width: 339px;
+        font-size: 15px;
+        line-height: 1.4;
+        font-weight: 500;
+    }
+
+
+    /* first par */
+
+    .par2 {
+        margin: 0;
+        margin: -7px 22px 20px;
+        font-size: 19px;
+    }
+
+    .list {
+        width: 200px;
+        font-size: 16px;
+        margin: 0;
+        margin-left: 50px;
+    }
+
+    .list p {
+        margin: 0;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+
+    /* second par */
+
+    .par3 {
+        font-size: 30px;
+        margin-left: -5px;
+    }
+
+    .list2 {
+        margin: 0;
+        margin-left: 45px;
+        margin-top: 15px;
+        width: 260px;
+        line-height: 1.5;
+        list-style-position: inside;
+    }
+
+    .list2 p {
+        margin: 0;
+        margin-left: 33px;
+        margin-top: -26px;
+        font-size: 15px;
+    }
+
+    .list2 li {
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .main-hr {
+        width: 305px;
+        margin: 0;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+
+
+
+    /* third par */
+
+    .par4 {
+        font-size: 30px;
+        margin-left: -5px;
+    }
+
+    .list3 {
+        margin: 0;
+        margin-left: 60px;
+        font-size: 15px;
+        width: 281px;
+    }
+
+    .list3 p {
+        margin: 0;
+        margin-left: 15px;
+    }
+
+
+
+    /* last par */
+
+    .par5 {
+        font-size: 30px;
+        margin-left: -5px;
+    }
+
+    #text2 {
+        margin: -8px 0 0 -5px;
+        width: 333px;
+        font-size: 16px;
+        line-height: 1.4;
+        font-weight: 500;
+    }
+
+    .sec-hr {
+        width: 305px;
+        margin: 0;
+        margin: 12px 35px
+    }
+
+    .row {
+        margin: 0;
+        margin-top: 12px;
+        margin-left: 67px;
+        font-size: 15px;
+    }
+
+    .value {
+        margin: 0;
+        margin-left: 30px;
+        font-size: 15px;
+    }
+}
